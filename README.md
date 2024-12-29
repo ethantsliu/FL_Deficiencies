@@ -1,2 +1,2 @@
-# The Consequences of Communication Deficiencies in Distributed Optimization Networks
+# The Consequences of Communication Deficiencies in Federated Learning 
 
