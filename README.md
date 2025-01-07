@@ -1,2 +1,6 @@
 # The Consequences of Communication Deficiencies in Federated Learning 
+**Abstract:**
 
+Distributed systems occur in settings such as client-server architecture. In training large-scale models, computation is distributed across machines to increase speed, but training data could be sensitive or large and costly to share, such as patients’ medical records. Federated learning ensures privacy by having devices train on local data, sharing only model updates with the server to form a global model. However, some machines have irregularities: subpar computation, or edges faltering due to device compatibility. We study two settings: a distributed network to exemplify the problems, and a federated learning problem using MNIST. We consider two communication deficiencies: 1) stragglers, where some nodes entirely lack computational power and therefore are “stragglers” holding up the network and 2) faltering edges, where some nodes lose communication with some of their neighbors, but still optimize on their local loss functions. We find significant decreases in accuracy with these deficiencies when compared with the nominal settings, and faltering edges are more robust than stragglers, but these accuracies converge given larger training sets. 
+
+[Read the full paper here](https://docs.google.com/document/d/1BgjzQ0a8dFhjTxexk27H8It1u4NiYCfkoTeMN-GSTlc/edit?tab=t.0)
